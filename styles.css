@@ -565,7 +565,7 @@ h1 {
   background: var(--dark-navy);
   font-family: 'SF Mono', 'Monaco', 'Inconsolata', monospace;
   font-size: 14px;
-  color: var(--text-gray);
+  color: #ffffff;
   transition: all 0.2s ease;
   cursor: pointer;
   position: relative;
