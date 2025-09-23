@@ -409,11 +409,13 @@ h1 {
   background: var(--white);
   color: var(--navy);
   border-color: var(--white);
+  text-decoration: none;
 }
 
 .btn-primary:hover {
   background: transparent;
   color: var(--white);
+  text-decoration: none;
 }
 
 .btn-secondary {
@@ -1324,7 +1326,7 @@ footer {
     margin-top: 20px;
 }
 
-.btn-primary {
+.contact-form .btn-primary {
     background: #ffffff;
     color: #000000;
     border: none;
@@ -1335,7 +1337,7 @@ footer {
     transition: all 0.3s ease;
 }
 
-.btn-primary:hover {
+.contact-form .btn-primary:hover {
     background: #f0f0f0;
 }
 
