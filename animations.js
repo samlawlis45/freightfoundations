@@ -1,4 +1,4 @@
-// FreightIntelligence.ai Framer Motion Animations
+// Freight Foundations Framer Motion Animations
 // Professional freight-themed animations for the platform
 
 // Wait for Framer Motion to load
@@ -296,5 +296,5 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
 
-    console.log('FreightIntelligence.ai animations loaded successfully!');
+    console.log('Freight Foundations animations loaded successfully!');
 });
