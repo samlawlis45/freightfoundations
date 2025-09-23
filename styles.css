@@ -388,9 +388,9 @@ h1 {
 }
 
 .features-grid .feature:hover {
-  transform: translateY(-8px);
+  transform: translateY(-8px) scale(1.02);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-  border-color: rgba(255, 75, 31, 0.3);
+  border-color: rgba(0, 212, 255, 0.3);
 }
 
 .btn {
@@ -590,7 +590,8 @@ h1 {
   background: var(--medium-navy);
   color: var(--white);
   padding-left: 28px;
-  transform: translateX(4px);
+  transform: translateX(4px) scale(1.02);
+  box-shadow: 0 8px 25px rgba(0, 212, 255, 0.15);
 }
 
 .domain-item:hover::before {
