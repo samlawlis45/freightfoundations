@@ -556,6 +556,62 @@ h1 {
   color: var(--text-gray);
 }
 
+.category-description {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.5;
+  margin-top: 12px;
+  max-width: 400px;
+}
+
+/* Metrics Section */
+.metrics-section {
+  margin: 60px 0;
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.metric-card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 40px 30px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.metric-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(0, 212, 255, 0.3);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.metric-value {
+  font-size: 48px;
+  font-weight: 700;
+  color: #00d4ff;
+  margin-bottom: 12px;
+  line-height: 1;
+}
+
+.metric-label {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.metric-description {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.5;
+}
+
 .domain-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
